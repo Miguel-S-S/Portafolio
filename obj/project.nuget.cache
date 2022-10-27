@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lidkPh9EJaCsZK1v9dPFc8N+I9h6SFuLsuSPRhF9zWEiYvIUqqOSF4PtcHyf6wCbgrvIv0Zhegx0dEXkpfnuHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\VSCode\\port\\portafolio\\portafolio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

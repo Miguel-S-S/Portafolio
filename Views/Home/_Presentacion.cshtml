@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Pagina Principal";
+    DateTime Hoy = DateTime.Now;
+}
+
+
+<div class="text-center">
+
+<h1 class="display-4">Miguel Saucedo</h1>
+
+<h2 class="display-5">Portafolio</h2>
+
+<img 
+id="foto"
+src="~/imagenes/foto.jpg" alt="Foto Portafolio" />
+</div>
+
+<div class="text-center">
+    <img id="imagen-prog" src="~/imagenes/logoProg.jpg" alt="prog" />
+</div>
+
+<h4>FECHA/HORA ACTUAL: @Hoy.ToString("dd/MM/yyyy hh:mm:ss tt")</h4>
+<div class="row justify-content-center text-center bg-primary">
+    <div class="col col-md-7 seccion-bienvenida">
+        <h1>Te doy la bienvenida a mi Portafolio</h1>
+        <p>Los analistas de sistemas implementan, mantienen y dan asistencia a los sistemas de información y TI para que cumplan con las necesidades de las organizaciones y escalar conforme estas crecen. Analizan y crean pruebas, y desarrollan especificaciones y requerimientos para los desarrolladores y los programadores. Normalmente no están involucrados de manera directa en el desarrollo de software o hardware.
+
+Se requiere que la mayoría de los analistas de sistemas tengan una licenciatura en el campo de la informática, tecnología de información, ingeniería o sistemas de información. Los analistas a menudo ascienden a papeles de dirección de proyectos. Los mejores analistas de sistemas tienen excelentes habilidades analíticas y son creativos a la hora de resolver problemas.</p>
+    </div>
+</div>
